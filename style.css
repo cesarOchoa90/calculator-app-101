@@ -3,3 +3,40 @@ body {
   width: 50%;
   height: 75%;
 }
+
+h1{
+  font-size: 80px;
+  color: rgb(97, 91, 91);
+  font-family:'Courier New', Courier, monospace;
+  
+}
+
+.calculator {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: 50px;
+  width: 400px;
+}
+
+#result{
+  border: 1px solid black;
+  margin-top: 20px;
+  height: 50px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.mismo:hover{
+
+  background-color: rgb(91, 152, 237);
+  color: white;
+
+}
+
+.limpio:hover{
+  background-color: red;
+  color: white;
+}
